@@ -1,0 +1,266 @@
+/*......Mobile......*/
+
+@media screen and (max-width: 428px) {
+    section {
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .section-box {
+        height: auto;
+    
+    }
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .header-logo {
+        font-size: 24px;
+        margin: 20px 0;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 30px;
+
+    }
+
+    .nav-item {
+        size: 16px;
+    }
+
+    .hero-content h3 {
+        font-size: 1.2rem;
+        letter-spacing: 20px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+        margin-top: 10px;
+        line-height: 1.2;
+        text-align: center;
+        z-index: 1;
+    }
+    
+    .hero-content{
+        padding: 50px 0;
+    }
+    
+    .hero-img {
+        width: 100%;
+        margin-top: 50px;
+        z-index: 1;
+    }
+    
+    .hero-btn {
+        margin-top: 50px;
+    }
+
+    .content-grid {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 50px;
+        padding: 50px 5%;
+    }
+
+    .about-img{
+        width: 100%;
+    }
+
+    .section-title{
+        font-size: 3.2rem;
+        margin-bottom: 20px;
+    }
+
+    #join-us .content-wrap {
+padding: 50px 5%;
+    }
+
+    .input1 {
+        height: 45px;
+        width: 50%;
+        padding: 0 30px;
+    }
+
+    .checkbox-wrap {
+        flex-direction: column;
+        gap: 20px;
+        font-size: 16px;
+
+    }
+
+    #join-us .section-title {
+        text-align: center;
+        font-size: 3rem;
+        margin-top: 10px;
+    }
+
+    .footer-grid{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-items {
+        font-size: 16px;
+    }
+ 
+}
+
+
+
+
+
+
+
+/*...........TAB...............*/
+
+
+@media screen and (min-width: 429px) and (max-width: 1279px) {
+    section {
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .section-box {
+        height: auto;
+    
+    }
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .header-logo {
+        font-size: 24px;
+        margin: 20px 0;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 30px;
+
+    }
+
+    .nav-item {
+        size: 20px;
+    }
+
+    .hero-content h3 {
+        font-size: 2rem;
+        letter-spacing: 25px;
+        margin-top: 30px;
+    }
+    
+    .hero-content h1 {
+        font-size: 4rem;
+        letter-spacing: 2px;
+        margin-top: 30px;
+        line-height: 1.2;
+        text-align: center;
+        z-index: 1;
+    }
+    
+    .hero-content{
+        padding: 50px 0;
+    }
+    
+    .hero-img {
+        width: 100%;
+        margin-top: 50px;
+        z-index: 1;
+    }
+    
+    .hero-btn {
+        margin-top: 50px;
+    }
+
+    .content-grid {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 50px;
+        padding: 50px 5%;
+    }
+
+    .about-img{
+        width: 100%;
+    }
+
+    .section-title{
+        font-size: 3.2rem;
+        margin-bottom: 20px;
+    }
+
+    #join-us .content-wrap {
+padding: 50px 5%;
+    }
+
+    .input1 {
+        height: 45px;
+        width: 50%;
+        padding: 0 30px;
+    }
+
+    .checkbox-wrap {
+        gap: 20px;
+        font-size: 20px;
+
+    }
+
+    #join-us .section-title {
+        text-align: center;
+        font-size: 3rem;
+        margin-top: 10px;
+    }
+
+    .footer-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        row-gap: 50px;
+        margin: 0 50px;
+    }
+
+    .footer-items {
+        font-size: 16px;
+    }
+ 
+}
+
+
+/*........Laptop........*/
+
+
+@media screen and (min-width: 1280px) and (max-width: 1990px) {
+
+    
+    .hero-img {
+        width: 50%;
+    }
+    
+
+    .section-title{
+        font-size: 3.2rem;
+        margin-bottom: 20px;
+    }
+
+    #join-us .content-wrap {
+        height: auto;;
+    }
+
+    .footer-items {
+        font-size: 16px;
+    }
+
+    #projects .section-box {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+ 
+}
